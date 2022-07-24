@@ -4,4 +4,4 @@
 
 [submodule "syntaxes/Terraform.tmLanguage"]
 	path = syntaxes/Terraform.tmLanguage
-	url = https://github.com/alexlouden/Terraform.tmLanguage
+	url = https://github.com/alexlouden/Terraform.tmLanguage.git
