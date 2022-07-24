@@ -15,3 +15,19 @@ date = "1987-08-25"
 
 Не забувайте реєструватися у найбільшій україньскій спільноті 
 девопсів: [ukrops](https://ukrops.club)
+
+# Про мене
+
+Я інженер, девопс, SRE. Працював як infrastructure lead, platform lead, head of the infrastructure і всяке-таке з компаніями Grammarly, Ring, Ebury та багатьма іншими. 
+
+Також я деякий час консультую чи виконую роль product manager/cpo у різних стартапах. 
+
+Люблю програмувати та моніторинг. 
+
+Надаю консультації і упішно менторю. 
+
+# Як мене знайти
+
+[Телеграм](https://t.me/ctrlok)
+[linkedin](https://linkedin.com/in/ctrlok/)
+[mail](mailto://seva@seva.rocks)
