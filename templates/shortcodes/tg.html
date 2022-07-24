@@ -1,0 +1,7 @@
+<script type="text/javascript">
+    const prefersDarkColorScheme = () =>
+        window &&
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.write("<script async src='https://telegram.org/js/telegram-widget.js?19' data-telegram-discussion='{{id}}' data-dark=" + prefersDarkColorScheme() + "><\/scr" + "ipt>");
+</script>
