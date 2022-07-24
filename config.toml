@@ -9,6 +9,8 @@ build_search_index = true
 
 theme = "apollo"
 
+generate_feed = true
+
 
 [markdown]
 # Whether to do syntax highlighting
