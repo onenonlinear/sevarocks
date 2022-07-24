@@ -8,3 +8,21 @@ on:
 jobs:
   build_site:
     name: "Build site"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v3.0.0
+      - name: Build only
+        uses: shalzz/zola-deploy-action@v0.16.0
+        env:
+          BUILD_DIR: ./
+          BUILD_ONLY: true
+          BUILD_FLAGS: --drafts
+      - name: S3 bucket listing
+        uses: remyleone/scw-s3-action@v0.0.2
+        with:
+          args: s3 sync public/ s3://${{ secrets.S3_BUCKET }}/
+        env:
+          SCW_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
+          SCW_SECRET_KEY: ${{ secrets.SCW_SECRET_KEY }}
+          SCW_REGION: "fr-par-1"
