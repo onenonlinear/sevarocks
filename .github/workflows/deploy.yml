@@ -25,4 +25,4 @@ jobs:
         env:
           SCW_ACCESS_KEY: ${{ secrets.SCW_ACCESS_KEY }}
           SCW_SECRET_KEY: ${{ secrets.SCW_SECRET_KEY }}
-          SCW_REGION: "fr-par-1"
+          SCW_REGION: "fr-par"
