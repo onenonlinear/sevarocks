@@ -24,7 +24,7 @@ extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage", "syntaxes/"]
 toc = true
 use_cdn = false
 favicon = "/icon/favicon.png    # Path to the favicon"
-theme = "light"
+theme = "auto"
 copyright = "Vsevolod Poliakov, 2022; All rights reserved"
 
 github_repository = "ctrlok/sevarocks"
