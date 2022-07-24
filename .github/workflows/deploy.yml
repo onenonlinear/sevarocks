@@ -18,7 +18,7 @@ jobs:
           BUILD_DIR: ./
           BUILD_ONLY: true
           BUILD_FLAGS: --drafts
-      - name: S3 bucket listing
+      - name: push to s3 bucket
         uses: remyleone/scw-s3-action@v0.0.2
         with:
           args: s3 sync public/ s3://${{ secrets.S3_BUCKET }}/
