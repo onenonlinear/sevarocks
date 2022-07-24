@@ -23,7 +23,7 @@ extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage", "syntaxes/"]
 # Put all your custom variables here
 toc = true
 use_cdn = false
-favicon = "/icon/favicon.png"
+favicon = "/icon/favicon.png    # Path to the favicon"
 theme = "light"
 copyright = "Vsevolod Poliakov, 2022; All rights reserved"
 
