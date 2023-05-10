@@ -115,3 +115,48 @@ body {
     background-color: #f3e5f5;
     padding: 20px;
 }
+
+
+.foldable {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    max-height: 50px;
+}
+
+.foldable.active {
+    max-height: none; /* Do not limit the height in the active state */
+}
+
+.foldable:not(.active) {
+    max-height: 50px;
+}
+
+.foldable-header {
+    color: white;
+    padding: 10px; // Hello this is Alexander
+    cursor: pointer;
+    font-family: var(--header-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-color);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, var(--primary-color), var(--secondary-color));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.foldable-content {
+    padding: 10px;
+    font-family: var(--text-font);
+            background: linear-gradient(to right, rgba(248, 118, 222, 0.1), rgba(126, 232, 250, 0.1));
+
+}
+
+.foldable-arrow {
+    transition: transform 0.3s ease;
+}
+
+.foldable.active .foldable-arrow {
+    transform: rotate(180deg);
+}
