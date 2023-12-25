@@ -22,7 +22,7 @@ jobs:
           BUILD_ONLY: true
           BUILD_THEMES: false
       - name: push to s3 bucket
-        uses: remyleone/scw-s3-action@v0.0.2
+        uses: ctrlok/scw-s3-action@v0.0.3
         with:
           args: s3 sync public/ s3://${{ secrets.S3_BUCKET }}/
         env:
