@@ -160,3 +160,8 @@ body {
 .foldable.active .foldable-arrow {
     transform: rotate(180deg);
 }
+
+img {
+  border: 0px solid #ececec;
+  max-width: 100%;
+}
