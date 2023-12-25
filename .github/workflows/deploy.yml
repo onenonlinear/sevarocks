@@ -20,7 +20,7 @@ jobs:
         env:
           BUILD_DIR: ./
           BUILD_ONLY: true
-          BUILD_THEMES: false
+          BUILD_THEMES: true
       - name: push to s3 bucket
         uses: ctrlok/scw-s3-action@v0.0.4
         with:
