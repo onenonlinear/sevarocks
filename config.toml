@@ -38,7 +38,7 @@ socials = [
     { name = "github", url = "https=//github.com/ctrlok", icon = "github" },
 ]
 
-analytics = { enabled = true, plausible_script = "https://stats.seva.rocks/js/index.js", plausible_domain = "seva.rocks" }
+analytics = { enabled = true, plausible_script = "https://plausible.io/js/script.js", plausible_domain = "seva.rocks" }
 
 custom_css = []
 
