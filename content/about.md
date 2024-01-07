@@ -30,4 +30,4 @@ date = "1987-08-25"
 
 [Телеграм](https://t.me/ctrlok)
 [linkedin](https://linkedin.com/in/ctrlok/)
-[mail](mailto://seva@seva.rocks)
+[mail](mailto:seva@seva.rocks)
